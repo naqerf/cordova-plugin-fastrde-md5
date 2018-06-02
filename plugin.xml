@@ -7,7 +7,7 @@
 	<keywords>file,md5,checksum,hash</keywords>
 	<repo>https://github.com/fastrde/phonegap-md5.git</repo>
 	<issue>https://github.com/fastrde/phonegap-md5/issues</issue>
-	<dependency id="cordova-plugin-file" version="3.0.0" />
+	<dependency id="cordova-plugin-file" version="4.3.2" />
 	<js-module src="www/md5chksum.js" name="md5chksum">
 		<clobbers target="md5chksum" />
 	</js-module>
@@ -20,8 +20,8 @@
 		</config-file>
 	</platform>
 	<platform name="ios">
-		<header-file src="src/ios/md5chksum.h" /> 
-		<source-file src="src/ios/md5chksum.m" /> 
+		<header-file src="src/ios/md5chksum.h" />
+		<source-file src="src/ios/md5chksum.m" />
 		<config-file target="config.xml" parent="/*">
 			<feature name="md5chksum">
 				<param name="ios-package" value="md5chksum" />
